@@ -18,7 +18,6 @@ def txt2img(id_task: str, prompt: str, negative_prompt: str, prompt_styles, step
     steps = 20
     width = 512
     height = 786
-    negative_prompt = "Objectionable content, no clothes, no panties, no badges, nudity, missing breasts, adult content, sex scenes, seduction, masturbation, big breasts, flowing water, bad fingers, low resolution, scary content, more than five fingers, bad work,{{ nsfw, }}, boy's body, game cg, {{ watercolor paper }}, Chiaroscuro, masterpiece, best quality, detailed, moe2015, loli face, large face, round face, lovely big eyes, sex, cum in her pussy, {{{{{ girl on top }}}}}, sit on boy's crotch, cowgirl position, wariza, {{{ arm between legs }}}, love juice, sweat, medium breasts, nipples, {{{ light_blue hair }}}, long straight hair, sideburns, hair between eyes, long bangs, completely nude, neck, one eye closed, brown eyes, in heat, open mouth, drooling, POV, ceiling, in dark room, lamp, bed"
     
     p = processing.StableDiffusionProcessingTxt2Img(
         sd_model=shared.sd_model,
