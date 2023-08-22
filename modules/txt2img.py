@@ -18,6 +18,7 @@ def txt2img(id_task: str, prompt: str, negative_prompt: str, prompt_styles, step
     steps = 20
     width = 512
     height = 786
+    negative_prompt = "Objectionable content, no clothes, no panties, no badges, nudity, missing breasts, adult content, sex scenes, seduction, masturbation, big breasts, flowing water, bad fingers, low resolution, scary content, more than five fingers, bad work"
     
     p = processing.StableDiffusionProcessingTxt2Img(
         sd_model=shared.sd_model,
